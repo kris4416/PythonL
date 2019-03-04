@@ -11,3 +11,7 @@ print(regimentNamesCapitalized)
 
 
 # Method 2
+
+Capitalized = list(map(lambda x: x.upper(), regimentNames))
+
+print(Capitalized)
